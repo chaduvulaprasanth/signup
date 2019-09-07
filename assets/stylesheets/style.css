@@ -65,11 +65,14 @@ body {
 }
 
 #wrapper {
+  width: 30rem;
   padding: 4rem;
+  margin: 0 auto;
 }
 
 #username {
   background-color: #F5F5F5;
+  width: 100%;
   padding: 0.6rem 0.5rem;
   border-radius: 0.5rem;
   border: none;
@@ -78,6 +81,7 @@ body {
 
 #password {
   background-color: #F5F5F5;
+  width: 100%;
   padding: 0.6rem 0.5rem;
   border-radius: 0.5rem;
   border: none;
@@ -131,6 +135,188 @@ input::placeholder {
   font-weight: bold;
   letter-spacing: 0.06rem;
   margin-left: 1rem;
+}
+
+/*icons*/
+@keyframes move {
+  from {
+    transform: rotate(0deg) translateX(30px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(30px) rotate(-360deg);
+  }
+}
+@keyframes move1 {
+  from {
+    transform: rotate(360deg) translateX(30px) rotate(-360deg);
+  }
+  to {
+    transform: rotate(0deg) translateX(30px) rotate(0deg);
+  }
+}
+.fb {
+  position: absolute;
+  z-index: -1;
+  left: 4%;
+  top: 12%;
+  animation-name: move1;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.twitter {
+  position: absolute;
+  z-index: -1;
+  left: 15%;
+  top: 60%;
+  animation-name: move;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.airbnb {
+  position: absolute;
+  z-index: -1;
+  left: 25%;
+  top: 45%;
+  animation-name: move1;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.ig {
+  position: absolute;
+  z-index: -1;
+  left: 32%;
+  top: 5%;
+  animation-name: move;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.linkedin {
+  position: absolute;
+  z-index: -1;
+  left: 40%;
+  top: 70%;
+  animation-name: move;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.paytm {
+  position: absolute;
+  z-index: -1;
+  right: 2%;
+  top: 30%;
+  animation-name: move1;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.sheets {
+  position: absolute;
+  z-index: -1;
+  left: 35%;
+  top: 90%;
+  animation-name: move1;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.skype {
+  position: absolute;
+  z-index: -1;
+  left: 12%;
+  top: 25%;
+  animation-name: move;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.whatsapp {
+  position: absolute;
+  z-index: -1;
+  left: 45%;
+  top: 53%;
+  animation-name: move1;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.search {
+  position: absolute;
+  z-index: -1;
+  right: 12%;
+  bottom: 15%;
+  animation-name: move1;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.gmail {
+  position: absolute;
+  z-index: -1;
+  right: 25%;
+  top: 45%;
+  animation-name: move;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.spotify {
+  position: absolute;
+  z-index: -1;
+  left: 7%;
+  top: 82%;
+  animation-name: move1;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.youtube {
+  position: absolute;
+  z-index: -1;
+  right: 18%;
+  top: 12%;
+  animation-name: move;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.snapchat {
+  position: absolute;
+  z-index: -1;
+  left: 37%;
+  top: 25%;
+  animation-name: move;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.slack {
+  position: absolute;
+  z-index: -1;
+  right: 37%;
+  bottom: 18%;
+  animation-name: move;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 /*# sourceMappingURL=style.css.map */
