@@ -1,0 +1,71 @@
+// general css
+html {
+    font-size: 16px;
+}
+body {
+    background-color: #FFFFFF;
+}
+#wrapper{
+    padding: 4rem;
+}
+#username {
+    background-color: #F5F5F5;
+    // width: 100%;
+    padding: 0.6rem 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1rem;
+}
+#password {
+    background-color: #F5F5F5;
+    // width: 100%;
+    padding: 0.6rem 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1rem;
+    margin: 2rem 0;
+}
+input::placeholder{
+    color: grey;
+    letter-spacing: 0.08rem;
+}
+#signup {
+    padding: 0.7rem 1rem;
+    border: none;
+    border-radius: 1.2rem;
+    background-color: #0084FF;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.06rem;
+}
+#signin {
+    padding: 0.7rem 1rem;
+    border: none;
+    border-radius: 1.2rem;
+    background-color: #0084FF;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.06rem;
+    margin-left: 1rem;
+}
+#signmsg {
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: black;
+}
+#logout {
+    padding: 0.7rem 1rem;
+    border: none;
+    border-radius: 1.2rem;
+    // background-color: #0084FF;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.06rem;
+    margin-left: 1rem;
+}
