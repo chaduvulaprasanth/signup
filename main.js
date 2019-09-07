@@ -11,7 +11,7 @@ const logout = document.getElementById("logout");
 const signup = document.getElementById("signup");
 const signin = document.getElementById("signin");
 const p = document.getElementById("signmsg")
-
+const a = document.getElementById("redirect")
 
 // user entered input is stored array
 let data = [];
@@ -44,8 +44,7 @@ function checksignin(){
     data.forEach((e) => {
                             if (e.name == username.value && e.pass == password.value) {
                             wrapper.style.display = "none";
-                            logout.style.backgroundColor = "blue";
-                            logout.innerText = "logout";    
+                            a.setAttribute("href","file:///Users/chaduvulaprasanth/Documents/altcampus/asapcss/index.html")    
                             }
                             else{
                                 p.innerText = "Incorrect username or password"
